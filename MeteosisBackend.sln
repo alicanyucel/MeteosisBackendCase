@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteosisBackend.Application", "MeteosisBackend\MeteosisBackend.Application\MeteosisBackend.Application.csproj", "{D65BE31D-E559-484E-80D6-27098C0AC0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteosisBackend.Domain", "MeteosisBackend\MeteosisBackend.Domain\MeteosisBackend.Domain.csproj", "{2F4E842A-2EE0-4F0B-9574-8CC694210858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteosisBackend.Infrastructure", "MeteosisBackend\MeteosisBackend.Infrastructure\MeteosisBackend.Infrastructure.csproj", "{46C4DCDE-CA0C-461E-8919-4014129CB4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeteosisBackend.WebAPI", "MeteosisBackend\MeteosisBackend.WebAPI\MeteosisBackend.WebAPI.csproj", "{FA21B76F-FD09-4391-9CC5-4D7243700A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65BE31D-E559-484E-80D6-27098C0AC0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65BE31D-E559-484E-80D6-27098C0AC0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65BE31D-E559-484E-80D6-27098C0AC0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65BE31D-E559-484E-80D6-27098C0AC0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4E842A-2EE0-4F0B-9574-8CC694210858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4E842A-2EE0-4F0B-9574-8CC694210858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4E842A-2EE0-4F0B-9574-8CC694210858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4E842A-2EE0-4F0B-9574-8CC694210858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C4DCDE-CA0C-461E-8919-4014129CB4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C4DCDE-CA0C-461E-8919-4014129CB4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C4DCDE-CA0C-461E-8919-4014129CB4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C4DCDE-CA0C-461E-8919-4014129CB4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA21B76F-FD09-4391-9CC5-4D7243700A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA21B76F-FD09-4391-9CC5-4D7243700A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA21B76F-FD09-4391-9CC5-4D7243700A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA21B76F-FD09-4391-9CC5-4D7243700A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
